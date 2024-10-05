@@ -1,7 +1,31 @@
 html{
     background-color: rgb(255, 245, 205);
+    padding: 1em;
 }
 
 #self{
     float: right;
+    padding: .5em;
+}
+
+body nav{
+    text-decoration: none;
+    text-align: center;
+    border:2px solid rgba(0,0,0,0.1);
+    background-color: rgb(231, 143, 129);
+    font-size: large;
+    padding: 10px;
+}
+
+body nav ul li a:link{
+    color: black;
+}
+
+nav ul li a:visited{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: purple;
 }
