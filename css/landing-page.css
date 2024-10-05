@@ -12,20 +12,20 @@ body nav{
     text-decoration: none;
     text-align: center;
     border:2px solid rgba(0,0,0,0.1);
-    background-color: rgb(129 129 231);
+    background-color: lightblue;
     font-size: large;
     padding: 10px;
 }
 
 body nav a:link{
-    color: lime;
+    color: blue;
 }
 
 body nav a:visited{
-    color: yellow;
+    color: black;
 }
 
 body nav a:hover{
-    color: black;
-    background: orange;
+    color: yellow;
+    background: forestgreen;
 }
