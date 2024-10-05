@@ -22,10 +22,10 @@ body nav a:link{
 }
 
 body nav a:visited{
-    color: white;
+    color: yellow;
 }
 
 body nav a:hover{
-    color: white;
+    color: black;
     background: orange;
 }
