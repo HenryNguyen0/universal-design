@@ -42,8 +42,7 @@ nav ul li a:visited{
 }
 
 nav ul li a:hover{
-    color: white;
-    background: purple;
+    color: forestgreen;
 }
 
 .sr-only {
