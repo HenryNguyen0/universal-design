@@ -53,6 +53,10 @@ footer p{
     font-size: 1em;
 }
 
+form{
+    border: 1px solid black;
+    padding: 10px;
+}
 
 .sr-only {
     border: 0;
