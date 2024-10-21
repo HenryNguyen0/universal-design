@@ -49,6 +49,10 @@ footer{
     padding-bottom: 30px;
 }
 
+footer p{
+    font-size: 1em;
+}
+
 
 .sr-only {
     border: 0;
