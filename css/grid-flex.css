@@ -1,0 +1,10 @@
+h1, h2, h3{
+    font-family: serif;
+    font-weight: normal;
+    padding: .2em 0;
+}
+
+p{
+    margin: 1.8em 0;
+    line-height: 1.8em;
+}
