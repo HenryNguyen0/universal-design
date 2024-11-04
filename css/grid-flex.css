@@ -81,18 +81,9 @@ body {
     padding: 20px;
   }
   
-  Main{
+  Main, #Production, #Marketing{
     background: orange;
   }
-
-  #Production{
-    background: rgb(255, 240, 24)
-  }
-
-  #Marketing{
-    background: rgb(255, 81, 0);
-  }
-
 
   @media screen
     and (min-width: 1500px)
