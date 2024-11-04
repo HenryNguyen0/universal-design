@@ -81,8 +81,16 @@ body {
     padding: 20px;
   }
   
-  #Production, #Marketing{
+  Main{
     background: orange;
+  }
+
+  #Production{
+    background: rgb(255, 240, 24)
+  }
+
+  #Marketing{
+    background: rgb(255, 81, 0);
   }
 
 
@@ -127,7 +135,6 @@ body {
     background: white;
   
   }
-  
   
   
   }  /* end mobile media query */
