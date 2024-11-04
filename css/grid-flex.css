@@ -6,20 +6,13 @@ body {
     font-size: 1.02em;
   }
 
-  
-  /*
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+
+
+  h1{
+    color: black;
   }
-  */
   
-  h1,
-  h2,
-  h3 {
+  h1, h2, h3 {
     font-family: "Quicksand", sans-serif;
     font-weight: normal;
     padding-bottom: 0.6em;
@@ -41,6 +34,10 @@ body {
     padding: 1.5em;
     border: 1px black solid;
   }
+
+  header{
+    color: black;
+  }
   
   header,
   footer {
@@ -59,17 +56,15 @@ body {
     "heady     heady     heady"
     "navvy     navvy     navvy"
     "aside1    mainy     aside2"
-    "aside1    mainy     aside2"
-    "aside1    mainy     aside2"
     "footy     footy     footy";
   }
   
-  header {grid-area: heady; background:Papayawhip;}
-  nav {grid-area: navvy; background:Peachpuff;}
-  main {grid-area: mainy; background: powderblue; max-height: 100%;}
+  header {grid-area: heady; background:white;}
+  nav {grid-area: navvy; background:lightgray;}
+  main {grid-area: mainy; background: white; max-height: 100%;}
   #aside1 {grid-area: aside1; background: mintcream;}
   #aside2 {grid-area: aside2; background: lavender;}
-  footer {grid-area: footy; background: lightsalmon;}
+  footer {grid-area: footy; background: white;}
   
   nav ul {
   display: flex;
@@ -80,7 +75,17 @@ body {
   nav ul li {
     list-style: none
   }
+
+  #Overview img{
+    float: right;
+    padding: 20px;
+  }
   
+  #Production, #Marketing{
+    background: orange;
+  }
+
+
   @media screen
     and (min-width: 1500px)
  {
@@ -126,3 +131,16 @@ body {
   
   
   }  /* end mobile media query */
+
+  .sr-only {
+    border: 0;
+    clip: rect(0,0,0,0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
