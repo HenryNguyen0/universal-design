@@ -42,7 +42,7 @@ body nav a:visited{
 
 body nav a:hover{
     color: yellow;
-    background: forestgreen;
+    background: rgb(164, 175, 164);
 }
 
 nav ul {
@@ -54,6 +54,10 @@ nav ul {
 nav ul li {
       list-style-type: none;
     }
+
+nav ul li a{
+    text-decoration: none;
+}
 
     @media screen
     and (max-width: 640px)  {
