@@ -53,7 +53,7 @@ nav ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    }
+}
     
 nav ul li {
       list-style-type: none;
