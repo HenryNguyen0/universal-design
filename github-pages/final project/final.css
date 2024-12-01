@@ -31,8 +31,7 @@ nav h2 {
 }
 
 html{
-    background-color: rgb(24, 52, 173);
-    padding: 1em;
+    background-color: rgb(240, 240, 240);
     color: white;
     font-family: sans-serif;
 }
@@ -45,6 +44,8 @@ html{
     height: 100%;
     border-radius: 20px;
     outline: 4px solid rgb(35, 35, 35);
+    display: block;
+
 }
 
 h1{
@@ -79,9 +80,11 @@ nav {
     background-color: rgb(35, 35, 35);
     position: sticky; /* Set the navbar to fixed position */
     top: 0;
-    width: 100%; /* Full width */
+    width:max-content; /* Full width */
     text-decoration: none;
     color: white;
+    display: block;
+
 }
 
 nav ul {
@@ -93,13 +96,13 @@ nav ul {
 
 nav ul li a{
     text-decoration: none;
-    padding: 12px;
+    padding: 0px;
     border-radius: 10px
 }
 
 nav ul li {
     list-style-type: none;
-    float: right;
+    float: left;
 }
 
 nav a:hover{
