@@ -67,10 +67,13 @@ h1 a{
     border-radius: 10px;
 }
 
-body p, h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
     color:rgb(24, 52, 173);
 }
 
+body p{
+    color: black;
+}
 
 
 nav {
@@ -167,6 +170,8 @@ grid-template-areas:
 "aside1 aside2"
 "footy footy";
 }
+
+
 }/* end tablet media query */
 
 @media screen
@@ -184,17 +189,32 @@ grid-template-areas:
 }
 
 nav ul {
-flex-flow: column nowrap;
+flex-flow: row nowrap;
 text-align: center;
 }
+
 nav ul li a {
 display: block;
 padding: 10px 5px;
 margin: 5px;
-border: 1px black solid;
-background: white;
-
+border: 1px white solid;
+color: white;
+width: 95px;
 }
+
+nav {
+    color: white;
+}
+
+nav a:hover{
+    color: white;
+    background: rgb(24, 52, 173);
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
 
 
 }  /* end mobile media query */
