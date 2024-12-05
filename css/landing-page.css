@@ -31,17 +31,17 @@ body nav{
     text-decoration: none;
     text-align: center;
     border:2px solid rgba(0,0,0,0.1);
-    background-color: white;
+    background-color: #45648C;
     font-size: large;
     padding: 10px;
 }
 
 body nav a:link{
-    color: blue;
+    color: white;
 }
 
 body nav a:visited{
-    color: black;
+    color: #9AEBA3;
 }
 
 body nav a:hover{

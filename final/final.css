@@ -19,23 +19,23 @@
     padding: 4px;
     position: absolute;
     transform: translate(-200%);
-
 }
 
 .skip-link:focus {
     transform: translate(0%);
+    color: black; /* Explicitly set color here */
+    outline: none; /* Optional, removes default browser outline */
+    text-decoration: underline; /* Optional, adds visible focus indicator */
 }
 
-nav h2 {
-    color: white;
+.skip-target {
+    scroll-margin-top: 100px; /* Adjust this value to match your sticky nav bar's height */
 }
 
 html{
     background-color: rgb(240, 240, 240);
-    color: white;
     font-family: sans-serif;
 }
-
 
 .container{
     max-width: 1000px;
@@ -53,30 +53,25 @@ html{
 
 h1{
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1.5em;
     padding-bottom: .6em;
+    background-color: #13678A;
+    color: white;
+    height: 2em;
+    border-radius: 15px;
+    margin-top: -.05em;
 }
 
-body p, h1, h2, h3, h4, h5, h6{
+h1 a{
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+body p, h2, h3, h4, h5, h6{
     color:rgb(24, 52, 173);
 }
 
-main p{
-    padding-right: 1.5em;
-    padding-bottom: 1.1em;
-    padding-left: 1.5em;
-    line-height: 1.8em;
-}
 
-main h2{
-    padding-left: .95em;
-    padding-top: .9em;
-}
-
-main h3, h4, h5, h6{
-    padding-left: 1.3em;
-    padding-top: 1.1em; 
-}
 
 nav {
     overflow: hidden;
@@ -86,8 +81,12 @@ nav {
     width: 100% max-content; /* Full width */
     text-decoration: none;
     color: white;
-    
+    border-radius: 10px;
+    margin-top: -.75em;
+}
 
+nav h2 {
+    color: white;
 }
 
 nav ul {
@@ -110,7 +109,6 @@ nav ul li a{
 nav ul li {
     list-style-type: none;
     float: left;
-    
 }
 
 nav a:hover{
@@ -120,12 +118,38 @@ nav a:hover{
 
 a, a:visited, a:hover, a:active {
     color: inherit;
-  }
+}
+
+body p{
+    padding-right: 1.5em;
+    padding-bottom: 1.1em;
+    padding-left: 1.5em;
+    line-height: 2em;
+}
+
+main h2{
+    padding-left: .95em;
+    padding-top: .9em;
+}
+
+main h3, h4, h5, h6{
+    padding-left: 1.3em;
+    padding-top: 1.1em; 
+}
 
 footer{
     text-align: center;
-    padding-bottom: .9em;
+    padding-bottom: .5em;
     line-height: 1.5em;
+    background-color: #13678A;
+    margin-top: 1.25em;
+    border-radius: 15px;
+    padding-top: 1.2em;
+    margin-bottom: -1.em;
+}
+
+footer p{
+    color: white;
 }
 
 
