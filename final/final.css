@@ -48,7 +48,12 @@ html{
     border: 0;
     margin-top: 1em;
     padding: 1.3em;
-
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "headr"
+    "navbar"
+    "mainy"
+    "footr";
 }
 
 h1{
@@ -77,11 +82,12 @@ body p{
 
 
 nav {
+    grid-area: navbar;
     overflow: hidden;
     background-color: rgb(35, 35, 35);
     position: sticky; /* Set the navbar to fixed position */
     top: 0;
-    width: 100% max-content; /* Full width */
+    width: 100%; /* Full width */
     text-decoration: none;
     color: white;
     border-radius: 10px;

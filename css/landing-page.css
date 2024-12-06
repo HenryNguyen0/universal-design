@@ -15,16 +15,16 @@ h1{
 
 #self{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: .8em;
     border-radius: 50%;
+    margin-top: 3em;
 }
 
 body p{
     line-height: 1.7em;
     font-size: 1.1em;
-    
 }
 
 body nav{
@@ -49,6 +49,10 @@ body nav a:hover{
     background: rgb(164, 175, 164);
 }
 
+nav{
+    width: 100% max-content;
+}
+
 nav ul {
     display: flex;
     flex-flow: row nowrap;
@@ -56,11 +60,24 @@ nav ul {
 }
     
 nav ul li {
-      list-style-type: none;
-    }
+    list-style-type: none;
+    float: left;
+}
 
 nav ul li a{
     text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: .5em;
+    line-height: 1.5em;
+    background-color: #45648C;
+    color: #9AEBA3;
+    margin-top: 5em;
+    border-radius: 15px;
+    padding-top: 1.2em;
+    margin-bottom: -1.1em;
 }
 
     @media screen
