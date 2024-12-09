@@ -41,7 +41,7 @@ body nav a:link{
 }
 
 body nav a:visited{
-    color: #9AEBA3;
+    color: white;
 }
 
 body nav a:hover{
@@ -73,7 +73,7 @@ footer{
     padding-bottom: .5em;
     line-height: 1.5em;
     background-color: #45648C;
-    color: #9AEBA3;
+    color: white;
     margin-top: 5em;
     border-radius: 15px;
     padding-top: 1.2em;
@@ -103,7 +103,7 @@ footer{
     padding: 10px 5px;
     margin: 5px;
     border: 1px black solid;
-    background: white;
+    background: black;
   
   }
   
